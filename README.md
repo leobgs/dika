@@ -60,9 +60,12 @@ cd front-end
 Run the local server (choose one):
 
 - Open file login.html"
-  ```/front-end/login.html
+
+  ```sh
+  /front-end/login.html
 
   ```
+
 - Or with Node.js (http-server):
   ```sh
   npx http-server -p 8000
