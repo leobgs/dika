@@ -21,7 +21,7 @@ git clone git@github.com:leobgs/dika.git
 Change to the project directory:
 
 ```sh
-cd <your-project-directory
+cd <your-project-directory>
 ```
 
 ## 3. Running the Application
