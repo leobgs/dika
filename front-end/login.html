@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="login.js"></script>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <p>example: admin</p>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Masukkan username"
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <p>example: 1234</p>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Masukkan password"
+          />
+        </div>
+        <button type="submit" class="login-btn">Login</button>
+        <span id="errorMessage" class="error-message"></span>
+        <span id="usernameError" class="error-message"></span>
+        <span id="passwordError" class="error-message"></span>
+        <span id="usernamePasswordError" class="error-message"></span>
+      </form>
+    </div>
+  </body>
+</html>
